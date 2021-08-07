@@ -74,85 +74,32 @@ body {
         border-bottom-left-radius: 100%;
         border-bottom-right-radius: 41%; } }
     .left-side__shape-white {
-      position: absolute;
+      position: relative;
       width: 17rem;
       height: 2.4rem;
       background-color: white;
-      left: 48.5rem;
       z-index: 100;
-      top: -1rem;
+      margin: 0 auto;
       border-bottom-left-radius: 20px;
       border-bottom-right-radius: 20px;
-      transform: translateY(17.2rem);
       transition: all 0.4s; }
-      @media only screen and (max-width: 1400px) {
-        .left-side__shape-white {
-          transform: translateX(0) translateY(17.8rem);
-          height: 2.4rem;
-          width: 16.5rem; } }
-      @media only screen and (max-width: 1300px) {
-        .left-side__shape-white {
-          transform: translateX(-6.1rem) translateY(17.8rem);
-          width: 16rem; } }
-      @media only screen and (max-width: 1200px) {
-        .left-side__shape-white {
-          transform: translateX(-10.6rem) translateY(17.8rem); } }
-      @media only screen and (max-width: 1130px) {
-        .left-side__shape-white {
-          transform: translateX(-18.7rem) translateY(15.8rem);
-          width: 14rem; } }
-      @media only screen and (max-width: 910px) {
-        .left-side__shape-white {
-          transform: translateX(-34.7rem) translateY(17.3rem); } }
       @media only screen and (max-width: 700px) {
         .left-side__shape-white {
-          transform: translateX(-26.7rem) translateY(8.3rem); } }
-      @media only screen and (max-width: 500px) {
-        .left-side__shape-white {
-          transform: translateX(-30.7rem) translateY(8.3rem); } }
-      @media only screen and (max-width: 400px) {
-        .left-side__shape-white {
-          transform: translateX(-36.3rem) translateY(8.3rem); } }
-      @media only screen and (max-width: 23.4375em) {
-        .left-side__shape-white {
-          transform: translateX(-37.3rem) translateY(8.3rem); } }
+          transform: translateY(-0.1rem); } }
   .left-side__phone {
-    position: absolute;
+    position: relative;
     background-color: white;
     width: 32rem;
     height: 68rem;
-    left: 41rem;
-    top: 15rem;
+    margin: 0 auto;
+    margin-top: 5rem;
     box-shadow: 8px 17px 50px -20px rgba(0, 0, 0, 0.44);
     border-radius: 2.5rem;
+    transform: translateX(2rem);
     transition: all 0.4s; }
-    @media only screen and (max-width: 1400px) {
-      .left-side__phone {
-        transform: scale(0.9) translateY(-3rem) translateX(0); } }
-    @media only screen and (max-width: 1300px) {
-      .left-side__phone {
-        transform: scale(0.9) translateY(-3rem) translateX(-7rem); } }
-    @media only screen and (max-width: 1200px) {
-      .left-side__phone {
-        transform: scale(0.9) translateY(-3rem) translateX(-12rem); } }
-    @media only screen and (max-width: 1130px) {
-      .left-side__phone {
-        transform: scale(0.8) translateY(-10rem) translateX(-25rem); } }
-    @media only screen and (max-width: 910px) {
-      .left-side__phone {
-        transform: scale(0.8) translateY(-8rem) translateX(-45rem); } }
     @media only screen and (max-width: 700px) {
       .left-side__phone {
-        transform: scale(0.8) translateY(-19rem) translateX(-35rem); } }
-    @media only screen and (max-width: 500px) {
-      .left-side__phone {
-        transform: scale(0.8) translateY(-19rem) translateX(-40rem); } }
-    @media only screen and (max-width: 400px) {
-      .left-side__phone {
-        transform: scale(0.8) translateY(-19rem) translateX(-47rem); } }
-    @media only screen and (max-width: 23.4375em) {
-      .left-side__phone {
-        transform: scale(0.8) translateY(-19rem) translateX(-48rem); } }
+        transform: scale(0.8) translateY(-8rem); } }
     .left-side__phone-container {
       position: absolute;
       top: 50%;
@@ -166,8 +113,9 @@ body {
       border-radius: 15px; }
       .left-side__phone-container__top {
         width: 100%;
-        height: 15%;
+        height: 100%;
         margin-bottom: 1rem;
+        transform: translateY(-2.4rem);
         background-image: linear-gradient(to left, #e942ff, #8838ff);
         border-radius: 18px;
         border-bottom-left-radius: 7px;
@@ -191,6 +139,8 @@ body {
           color: rgba(255, 255, 255, 0.479);
           font-size: 1rem;
           margin-top: 0.2rem; }
+        .left-side__phone-container__top-flex {
+          height: 15%; }
       .left-side__phone-container__message--left {
         color: #9241c8;
         width: 57%;
