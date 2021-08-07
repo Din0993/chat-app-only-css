@@ -1,0 +1,59 @@
+// VARIABLES
+
+//Colors
+$color-pale-violet: hsl(276, 100%, 81%);
+$color-moderate-violet: hsl(276, 55%, 52%);
+$color-moderate-violet-background: hsla(275, 14%, 33%, 0.088);
+$color-desaturated-dark-violet: hsl(271, 15%, 43%);
+$color-grayish-blue: hsl(206, 6%, 79%);
+$color-very-dark-desaturated-violet: hsl(271, 36%, 24%);
+$color-dark-grayish: hsl(270, 7%, 64%);
+
+//Gradient colors
+$color-light-magenta: hsl(293, 100%, 63%);
+$color-light-violet: hsl(264, 100%, 61%);
+
+//Secondary colors
+$color-white: hsl(0, 0%, 100%);
+$color-light-grayish-violet: hsl(270, 20%, 96%);
+$color-very-light-magenta: hsl(289, 100%, 72%);
+$color-circle: hsla(0, 0%, 100%, 0.274);
+$color-circle-2: hsla(0, 0%, 100%, 0.699);
+$color-status: hsla(0, 0%, 100%, 0.479);
+$color-dots: rgba(255, 255, 255, 0.808);
+
+//Media query bp-s
+$mobile-width: 23.4375em;
+$desktop-width: 90em;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.25%;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  font-size: 1.6rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.attribution {
+  margin-top: -2rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
